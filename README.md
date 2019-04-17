@@ -17,7 +17,8 @@ Contact Tax Authority to obtain POS PFX file along with corresponding ROOT and I
 
 _To avoid constant setting of VSDC server address and PFX CN from app interface, you can set them by editing app.config file._
 
-```<applicationSettings>
+```
+<applicationSettings>
     <VSDCRequestSubmitter.Properties.Settings>
       <setting name="VSDCTargerAddress" serializeAs="String">
         <value>REPLACE WITH VSDC URL</value>
@@ -26,4 +27,5 @@ _To avoid constant setting of VSDC server address and PFX CN from app interface,
         <value>REPLACE WITH POS PFX Certificate Name (Subject CN)</value>
       </setting>
     </VSDCRequestSubmitter.Properties.Settings>
-  </applicationSettings>```
+  </applicationSettings>
+  ```
