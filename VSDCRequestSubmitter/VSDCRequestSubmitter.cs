@@ -21,7 +21,7 @@ namespace VSDCRequestSubmitter
         {
             InitializeComponent();
 
-            txtVSDCAddress.Text = Properties.Settings.Default.VSDCTargerAddress;
+            txtVSDCAddress.Text = Properties.Settings.Default.VSDCTargetAddress;
 
             txtCertificateName.Text = Properties.Settings.Default.CertificateName;
 

@@ -26,9 +26,9 @@ namespace VSDCRequestSubmitter.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("REPLACE WITH VSDC URL")]
-        public string VSDCTargerAddress {
+        public string VSDCTargetAddress {
             get {
-                return ((string)(this["VSDCTargerAddress"]));
+                return ((string)(this["VSDCTargetAddress"]));
             }
         }
         
