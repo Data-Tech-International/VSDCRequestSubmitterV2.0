@@ -20,7 +20,7 @@ _To avoid constant setting of VSDC server address and PFX CN from app interface,
 ```xml
 <applicationSettings>
     <VSDCRequestSubmitter.Properties.Settings>
-      <setting name="VSDCTargerAddress" serializeAs="String">
+      <setting name="VSDCTargetAddress" serializeAs="String">
         <value>REPLACE WITH VSDC URL</value>
       </setting>
       <setting name="CertificateName" serializeAs="String">
