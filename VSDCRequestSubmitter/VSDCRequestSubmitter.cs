@@ -36,7 +36,7 @@ namespace VSDCRequestSubmitter
 
             Directory.CreateDirectory($"{Path.GetDirectoryName(Application.ExecutablePath)}\\Result");
 
-            File.WriteAllText($"{Path.GetDirectoryName(Application.ExecutablePath)}\\Result\\Response.Json", proxy.ExecuteRequest(invoiceRequest));
+            File.WriteAllText($"{Path.GetDirectoryName(Application.ExecutablePath)}\\Result\\Response.Json", proxy.ExecuteRequest(JsonConvert.DeserializeObject<InvoiceRequest>(txtRequest.Text)));
 
             MessageBox.Show($"Signing was successful, find signing result at: {$"{Path.GetDirectoryName(Application.ExecutablePath)}\\Result"}");
         }
