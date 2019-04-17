@@ -27,5 +27,5 @@ _To avoid constant setting of VSDC server address and PFX CN from app interface,
         <value>REPLACE WITH POS PFX Certificate Name (Subject CN)</value>
       </setting>
     </VSDCRequestSubmitter.Properties.Settings>
-  </applicationSettings>
-  ```
+</applicationSettings>
+```
