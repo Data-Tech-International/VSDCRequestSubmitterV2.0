@@ -32,15 +32,12 @@ namespace VSDCRequestSubmitter.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("REPLACE WITH POS PFX Certificate Name (Subject CN)")]
         public string CertificateName {
             get {
                 return ((string)(this["CertificateName"]));
-            }
-            set {
-                this["CertificateName"] = value;
             }
         }
     }
